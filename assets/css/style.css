@@ -1,0 +1,156 @@
+* {box-sizing: border-box;}
+
+body{
+    margin:0;
+    background-image: url("../images/lightpaperfibers_@2X.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: antiquewhite;
+    }
+
+header{
+    position: fixed;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width:100%;
+    z-index: 10;
+    }
+
+h1, h2 {
+    font-family: 'Exo 2', sans-serif;
+    }
+
+h2{
+    color:#4aaaa5
+}
+
+hr{
+    display:block;
+    color:#cccccc;  
+}
+
+p{
+    color: #777777;
+    }
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    }
+
+li{
+    float: right;
+    }
+
+li a{
+    display:block;
+    color:#666666;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    padding:0px 25px 0px 0px;
+    text-decoration: none;
+    border-right: 1px solid #cccccc;
+    font-family: 'Exo 2', sans-serif;
+}
+
+li a:hover {
+    color: #4aaaa5;
+}   
+
+input[type=text], textarea{
+    width:100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Exo 2', sans-serif;;
+    }
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Exo 2', sans-serif;
+    }
+
+img{
+    float: left;
+    margin:5px;
+    padding: 15px;
+   } 
+
+.footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #666666;
+    padding:0;
+    line-height: 60px;
+    text-align: center;
+    margin:0 auto;
+    color:#ffffff;
+    border-top: #4aaaa5 solid 9px;
+    z-index:20;
+    }
+
+.main-container{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: 'Exo 2', sans-serif;
+    width: 960px;
+    margin: 90px;
+    line-height: 35px;
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    }
+
+.navigation{
+    width:960px;
+    margin:0 auto;
+    top:0;
+    }
+/* I got help from 
+https://www.tutorialrepublic.com/codelab.php?topic=faq&file=placing-text-over-an-image-with-css 
+ when I figure out how to put a text over an image*/
+.portfolio-cont{
+    position:relative;
+    display: inline-block;
+    }
+.portfolio-cont .text{
+    position: absolute;
+    margin:0 auto;
+    left:20px;
+    right: 0 auto;
+    text-align: center;
+    top:75%;
+    background: rgba(140, 195, 193);
+    font-family: 'Exo 2', sans-serif;
+    color: whitesmoke;
+    width: 75.5%;
+    font-weight: bolder;
+    font-size:24px;
+    }
+
+.portfolio-cont img{
+    width:80%;
+    }
+    
+#brand{
+    display: block;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    text-align:center;
+    margin:0 auto;
+    padding: 2px;
+    float: left;
+    }
