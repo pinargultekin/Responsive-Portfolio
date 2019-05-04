@@ -154,3 +154,48 @@ https://www.tutorialrepublic.com/codelab.php?topic=faq&file=placing-text-over-an
     padding: 2px;
     float: left;
     }
+@media screen  and (max-width: 980px) {
+    
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+      }
+    
+      .main-container,
+      .navigation,
+      .footer {
+        width: 100%;
+      }
+    }
+  @media screen  and (max-width: 768px) {
+  
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+      }
+    
+      .main-container,
+      .navigation,
+      .footer {
+        width: 100%;
+      }
+    }
+  @media screen  and (max-width: 640px) {
+
+    .wrapper {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .main-container,
+    .navigation,
+    .footer {
+      width: 100%;
+    }
+
+    .header {
+        position: static;
+    }
+}
+
+
